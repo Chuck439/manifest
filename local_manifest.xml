@@ -20,7 +20,7 @@
   <!-- <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996"/> -->
 
  <!-- Kernels -->
-  <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="Chuck439" clone-depth="1"/>
+  <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="Chuck439" revision="a11/r40-upstream"  clone-depth="1"/>
   <!-- Just use whatever you want for now, but remember to add the legacy omx patch! -->
 
  <!-- Device Trees -->
