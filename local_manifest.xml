@@ -14,7 +14,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="LineageOS" revision="lineage-18.1-legacy-um"/>
 
  <!-- Replacements -->
-  <remove-project name="android_packages_apps_FMRadio"/>
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Chuck439" revision="lineage-18.1"/>
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Chuck439" revision="lineage-18.1-caf-msm8996"/>
