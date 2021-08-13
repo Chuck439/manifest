@@ -3,7 +3,7 @@
   <remote  name="Chuck439"
            fetch="https://github.com/Chuck439" />
 
-  <remote  name="ssos"
+  <remote  name="sepsip"
            fetch="https://github.com/ShapeShiftOS" />
 
  <!-- Replacements -->
@@ -29,7 +29,7 @@
    <remove-project name="android_build" />
    <remove-project name="android_build_soong" />
    <remove-project name="android_build_blueprint" />
-   <project path="build/make" name="android_build" remote="Chuck439" groups="pdk" >
+   <project path="build/make" name="android_build" remote="Chuck439" revision="android_11"  groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -38,10 +38,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="ssos" groups="pdk,tradefed" >
+  <project path="build/soong" name="android_build_soong" remote="sepsip" revision="android_11" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/blueprint" name="android_build_blueprint" remote="ssos" />
+  <project path="build/blueprint" name="android_build_blueprint" remote="sepsip" revision="android_11" />
 
 </manifest>
