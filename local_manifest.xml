@@ -25,7 +25,11 @@
   <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common" remote="Chuck439"  revision="ssos"/>
   <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"      remote="Chuck439"   revision="ssos"/>
 
- <!-- Custom android_builds -->
+ <!-- QTI vibrator AIDL -->
+  <remove-project name="android_vendor_qcom_opensource_vibrator" />
+  <project path="vendor/qcom/opensource/vibrator"  name="android_vendor_qcom_opensource_vibrator"  remote="Chuck439"  revision="lineage-18.1" />
+
+ <!-- Custom android_build -->
    <remove-project name="android_build" />
    <remove-project name="android_build_soong" />
    <remove-project name="android_build_blueprint" />
