@@ -3,9 +3,6 @@
   <remote  name="Chuck439"
            fetch="https://github.com/Chuck439" />
 
-  <remote  name="syber"
-           fetch="https://github.com/syberia-project" />
-
  <!-- Replacements -->
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Chuck439" revision="lineage-18.1"/>
@@ -19,12 +16,9 @@
 
  <!-- Device Trees -->
   <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common" remote="Chuck439" revision="11/aosp"/>
-  <project path="device/xiaomi/olives"         name="android_device_xiaomi_olives"       remote="Chuck439"  revision="revenge"/>
+  <project path="device/xiaomi/olives"         name="android_device_xiaomi_olives"       remote="Chuck439"  revision="bianca"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common" remote="Chuck439"  revision="11/aosp"/>
   <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"      remote="Chuck439"   revision="11/aosp"/>
-
- <!-- stitchimage -->
-  <project path="external/asus/stitchimage"  name="platform_external_asus_stitchimage"  remote="syber"  revision="11.0" />
 </manifest>
