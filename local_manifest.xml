@@ -11,6 +11,7 @@
 
  <!-- Replacements -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Chuck439" revision="lineage-18.1"/>
+  <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni"  remote="Chuck439"  revision="lineage-18.1"  />
 
  <!-- hals -->
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
